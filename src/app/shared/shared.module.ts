@@ -15,6 +15,12 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [
     CommonModule,
     SharedRoutingModule
+  ],
+  exports:[
+    HeaderComponent,
+    SidebarComponent,
+    HeaderComponent,
+    BreadcrumbsComponent
   ]
 })
 export class SharedModule { }
